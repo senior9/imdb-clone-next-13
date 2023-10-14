@@ -2,6 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+-- Project-Lve-Link: https://imdb-clone-next-js-13.vercel.app/
 First, run the development server:
 
 ```bash
