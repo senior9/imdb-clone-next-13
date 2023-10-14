@@ -10,7 +10,7 @@ export default async function Home({searchParams}) {
   // console.log(res)
   const data = await res.json();
   const results = data.results;
-  console.log(results);
+  // console.log(results);
   if (!res.ok) {
     // This will activate the closest `error.js` Error Boundary
     throw new Error('Failed to fetch data')
