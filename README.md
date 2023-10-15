@@ -18,6 +18,10 @@ pnpm dev
 # or
 bun dev
 ```
+- [NPM Packages]
+```
+- npm i react-icons 
+```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
