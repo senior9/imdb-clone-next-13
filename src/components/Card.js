@@ -20,10 +20,11 @@ const Card = ({result}) => {
                 className='sm:rounded-t-lg group-hover:opacity-40 transition-opacity duration-300'
                 placeholder='blur'
                 blurDataURL='/public/spinner.svg'
+                alt='Image not avilable'
                 >
                     
                 </Image>
-            </Link>
+
 
             <div className='p-2'>
                  <p className='line-clamp-2'>
@@ -36,6 +37,7 @@ const Card = ({result}) => {
                  {result.vote_count}
                  </p>
             </div>
+            </Link>
         </div>
     );
 };
