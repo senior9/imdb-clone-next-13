@@ -4,7 +4,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 -- Project-Lve-Link:
 ```bash
-https://imdb-clone-next-js-13.vercel.app/
+https://imdb-clone-next-13-k3vq8ws0k-senior9.vercel.app/
 ```
  
 First, run the development server:
