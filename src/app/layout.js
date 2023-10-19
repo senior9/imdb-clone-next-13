@@ -3,6 +3,7 @@ import "./globals.css";
 import { Inter } from "next/font/google";
 import DarkModeProvider from "./DarkModeProvider";
 import Navbar from "@/components/Navbar";
+import SearchBox from "@/components/SearchBox";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,6 +19,7 @@ export default function RootLayout({ children }) {
         <DarkModeProvider>
           <Header />
           <Navbar/>
+          <SearchBox/>
           {children}
         </DarkModeProvider>
       </body>
